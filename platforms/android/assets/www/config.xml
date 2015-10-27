@@ -7,14 +7,12 @@
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Cryns Family Music Archive</name>
-
+    <name>Facenormal</name>
     <description>
-        All the Cryns Family Music.  All in One Place.
+        Social
     </description>
-
-    <author href="http://cryns.com" email="toby@cryns.com">
-        Toby Cryns
+    <author email="lab@gateone.hu" href="http://gate1.hu">
+        GateOne
     </author>
 
     <preference name="phonegap-version" value="3.6.3" />
