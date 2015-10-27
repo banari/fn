@@ -16,12 +16,12 @@
     </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <name>HelloCordova</name>
+    <name>Facenormal</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Social
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="lab@gateone.hu" href="http://gate1.hu">
+        GateOne
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -31,4 +31,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
 </widget>
