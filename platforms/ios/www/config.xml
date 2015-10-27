@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.music.cryns.myapp"
-        version   = "1.0.1">
+        version   = "1.0.2">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Facenormal</name>
@@ -40,7 +40,15 @@
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
     <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 
+    <!-- to show app faster, set autohide to true. iOS only -->
+    <preference name="AutoHideSplashScreen" value="false" />
 
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="keyboardDisplayRequiresUserAction" value="false" />
+    <preference name="webviewbounce" value="false" />
+
+    <!-- If you are seeing a blank screen on Android on app load, uncomment SplashScreenDelay preference -->
+    <!--preference name="SplashScreenDelay" value="10000" /-->
 
     <!-- No need to edit below this line -->
     <gap:splash src="splash.png"/>
