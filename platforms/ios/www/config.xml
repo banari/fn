@@ -3,15 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.music.cryns.myapp"
+        id        = "hu.gateone.facenormal"
         version   = "1.0.2">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Facenormal</name>
+    <name>Face Normal</name>
+
     <description>
-        Social
+        Social!
     </description>
-    <author email="lab@gateone.hu" href="http://gate1.hu">
+
+    <author href="#" email="#">
         GateOne
     </author>
 
@@ -41,7 +43,7 @@
     <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 
     <!-- to show app faster, set autohide to true. iOS only -->
-    <preference name="AutoHideSplashScreen" value="false" />
+<!--     <preference name="AutoHideSplashScreen" value="false" /> -->
 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
